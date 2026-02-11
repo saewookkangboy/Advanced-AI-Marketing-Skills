@@ -1,5 +1,6 @@
 {
   "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Skill file for marketing-report-automator. Provides a system prompt for one-click report generation.",
-  "updatedAt": "2026-02-11T06:49:54.261134Z"
+  "summary": "Enhanced Skill file for marketing-report-automator. Includes support for Daily, QBR, and Post-Mortem report types.",
+  "updatedAt": "2026-02-11T07:38:15.014599Z",
+  "version": "2"
 }

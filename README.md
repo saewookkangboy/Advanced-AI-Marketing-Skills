@@ -7,17 +7,28 @@ Use these structured "Skills" to upgrade your AI agent (Claude Code, OpenClaw, G
 ### 1. 🎨 [Context Ad Generator](./context-ad-generator/SKILL.md)
 
 **For**: Midjourney, Flux, DALL-E 3 users.
-Creates high-end, art-directed image prompts by injecting photographer context (Camera, Lighting, Vibe) instead of generic descriptors.
+Creates high-end, art-directed image prompts by injecting photographer context (Camera, Lighting, Vibe).
+**NEW Features**:
+
+- 7 Styles: Cyberpunk, Neo-Noir, Cottagecore, Luxury, etc.
+- Meta-Analysis step for better creative direction.
 
 ### 2. 🎬 [Viral Reels Scripter](./viral-reels-scripter/SKILL.md)
 
 **For**: Social Media Managers, Content Creators.
-Generates 15-60s video scripts optimized for retention. Splits output into Visuals, Audio, and Text Overlays with a focus on "The Hook".
+Generates 15-60s video scripts optimized for retention.
+**NEW Features**:
+
+- Hook Frameworks: Negativity Bias, Curiosity Gap, Transformation.
+- Niche-specific examples (Crypto, Productivity, etc.).
 
 ### 3. 📊 [One-Click Report Automator](./marketing-report-automator/SKILL.md)
 
 **For**: Marketing Analysts, Agencies.
-Instantly converts messy notes, JSON data, or Slack messages into a pristine Markdown Executive Report.
+Instantly converts messy notes into professional reports.
+**NEW Features**:
+
+- Support for `TYPE=DAILY`, `TYPE=QBR` (Quarterly), and `TYPE=POST_MORTEM`.
 
 ## 🚀 How to Use
 
@@ -63,7 +74,7 @@ Build full software solutions by simulating a complete product team.
 ### 🔄 Valid Orchestration Workflow
 
 1. **User** → **PM**: "I want a dashboard."
-    * *Result*: PRD with tasks for functional roles.
+    - *Result*: PRD with tasks for functional roles.
 2. **User** → **Designer**: "Generate wireframes for task 1 from PRD."
 3. **User** → **Frontend**: "Implement the wireframe."
 4. **User** → **Backend**: "Build the API for this component."
@@ -84,14 +95,17 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 ## 📚 References & Resources
 
 ### Reference
-*   **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)**: Please refer to this repository for basic marketing skill features!
+
+* **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)**: Please refer to this repository for basic marketing skill features!
 
 ### External Tools
+
 For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
-*   📝 Blog Content Generation
-*   �� Image Generation
-*   🎬 Video Generation
-*   ➕ And other useful prompts
+- 📝 Blog Content Generation
+- �� Image Generation
+- 🎬 Video Generation
+- ➕ And other useful prompts
 
 ## ✍️ Credits
+
 This entire repository was written by **Google Antigravity**.

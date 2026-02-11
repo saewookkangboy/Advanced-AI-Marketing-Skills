@@ -1,5 +1,6 @@
 {
   "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Skill file for context-ad-generator. Provides prompt templates for high-quality ad images.",
-  "updatedAt": "2026-02-11T06:49:34.908287Z"
+  "summary": "Enhanced Skill file for context-ad-generator. Includes diverse style presets and meta-analysis step.",
+  "updatedAt": "2026-02-11T07:37:42.457035Z",
+  "version": "2"
 }

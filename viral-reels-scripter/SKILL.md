@@ -1,45 +1,70 @@
 ---
-title: Viral Reels Scripter
-description: Generate high-retention scripts for TikTok, Reels, and Shorts using a "Viral Hook" framework.
+title: Viral Reels Scripter (Advanced)
+description: Generate high-retention scripts for TikTok, Reels, and Shorts using advanced psychological hooks.
 ---
 
-# Viral Reels Scripter
+# Viral Reels Scripter (Advanced)
 
-This skill acts as a Video Director for short-form content, prioritizing retention and engagement.
+This skill acts as a Video Director for short-form content, prioritizing retention and engagement through proven viral structures.
 
 ## How to use
 
-Ask the AI: "Write a Reel script for [Topic] targeting [Audience]."
+Ask the AI: "Write a [Hook Framework] script for [Topic] targeting [Audience]."
+
+## Hook Frameworks
+
+### 1. Negativity Bias ("Stop doing X")
+
+**Psychology**: Humans are wired to avoid pain.
+**Structure**: "Stop doing [Common Mistake]. It's killing your [Result]. Do this instead."
+
+### 2. Curiosity Gap ("The Secret")
+
+**Psychology**: The brain needs to close the information gap.
+**Structure**: "This creates the best [Result] I've ever seen, but nobody talks about it."
+
+### 3. Transformation ("Zero to Hero")
+
+**Psychology**: Aspiring to be like the successful self.
+**Structure**: "How I went from [Bad State] to [Dream State] in [Timeframe]."
+
+### 4. Controversial Take ("Unpopular Opinion")
+
+**Psychology**: Challenges beliefs -> High engagement/comments.
+**Structure**: "Unpopular opinion: [Belief] is a lie. Here's why."
 
 ## Prompt Template
 
 **Role**: You are a Gen-Z Social Media Manager and Video Director.
-
-**Objective**: Create a 15-60 second script that maximizes watch time.
-
-**Structure**:
-
-1. **The Hook (0-3s)**: Visually startling or controversial statement.
-2. **The Retention (3-15s)**: Fast-paced value delivery.
-3. **The Payoff (15-end)**: The core solution or twist.
-4. **CTA**: Specific action (Save this, Share this).
+**Context**: Optimize for watch time (retention) and shareability.
 
 **Output Format**:
 Return **ONLY** the Markdown table. Do not include intro or outro text.
 
 | Time | Visual Scene | Audio/Voiceover | Text Overlay |
 | :--- | :--- | :--- | :--- |
-| 0:00-0:03 | [Description of visual hook] | [Hook line] | [Big Bold Text] |
-| ... | ... | ... | ... |
+| **0:00-0:03** | [Visual Hook] | [Hook Line] | [Big Bold Text] |
+| **0:03-0:15** | [Fast Paced Value] | [Explanation] | [Key Points] |
+| **0:15-End** | [The Payoff/Twist] | [Solution] | [CTA] |
 
 ## Examples
 
-**User**: "Write a script for a productivity app called 'FocusFlow'."
+**User**: "Write a Negativity Bias script for a Productivity App."
 **Assistant**:
 
 | Time | Visual Scene | Audio/Voiceover | Text Overlay |
 | :--- | :--- | :--- | :--- |
-| **0:00-0:02** | Split screen: Person stressed vs. Person zen. | "Stop using Notion for everything." | 🛑 STOP USING NOTION |
-| **0:02-0:07** | Fast cuts of complex Notion databases. | "It's becoming a second job just to manage your to-do list." | Too complex? |
-| **0:07-0:12** | Screen recording of FocusFlow's simple drag-drop. | "FocusFlow is what productivity actually looks like. One click, done." | ✅ One Click |
-| **0:12-0:15** | Person closing laptop, smiling. | "Link in bio to reclaim your brain." | 🔗 Link in Bio |
+| **0:00-0:03** | Split screen: Tired person vs. Calendar. | "Stop trying to wake up at 5AM." | 🛑 STOP 5AM CLUB |
+| **0:03-0:08** | Person sleeping in blissfully. | "It's not about how early you wake up, it's about Deep Work." | It's a Scam. |
+| **0:08-0:12** | Screen recording of app blocking distractions. | "I sleep until 9, but I use FocusFlow to block everything for 4 hours." | 🛌 Sleep More. |
+| **0:12-0:15** | Person closing laptop at 2pm. | "Get more done, sleep more. Link in bio." | 🔗 Link in Bio |
+
+**User**: "Write a Curiosity script for a crypto trading bot."
+**Assistant**:
+
+| Time | Visual Scene | Audio/Voiceover | Text Overlay |
+| :--- | :--- | :--- | :--- |
+| **0:00-0:03** | Green chart shooting up. | "This indicator predicted the last 3 crashes." | 📈 3/3 Accuracy |
+| **0:03-0:08** | Blurring out the indicator name on screen. | "Wall Street hates that this is public. It signals BEFORE the dump." | 🤫 They Hate This |
+| **0:08-0:13** | Zoom in on 'Sell Signal' turning red. | "It just flashed red again this morning." | ⚠️ SELL SIGNAL |
+| **0:13-0:15** | Finger pointing to bio. | "I linked the chart in my bio. Check it before it's gone." | 🔗 Link in Bio |
