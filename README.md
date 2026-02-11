@@ -80,3 +80,18 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 3. EXCEPTION REPORTING: When analyzing data, only output significant anomalies (>10% variance).
 4. CONCISE FORMAT: Use tables and bullet points. Avoid paragraphs.
 ```
+
+## 📚 References & Resources
+
+### Reference
+*   **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)**: Please refer to this repository for basic marketing skill features!
+
+### External Tools
+For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
+*   📝 Blog Content Generation
+*   �� Image Generation
+*   🎬 Video Generation
+*   ➕ And other useful prompts
+
+## ✍️ Credits
+This entire repository was written by **Google Antigravity**.
