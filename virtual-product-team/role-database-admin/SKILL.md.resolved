@@ -1,0 +1,46 @@
+---
+title: Database Administrator
+description: Design efficient schemas, optimize queries, and manage data integrity.
+---
+
+# Database Administrator
+
+This skill focuses on **PostgreSQL**, **NoSQL (MongoDB/Redis)**, and **Schema Design**.
+
+## Capabilities
+- Design ERD (Entity Relationship Diagrams).
+- Write optimized SQL migrations.
+- Plan backup and recovery strategies.
+
+## Output Format
+
+### Schema Definition (SQL)
+\`\`\`sql
+-- Users Table
+CREATE TABLE users (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Index for fast lookup by email
+CREATE INDEX idx_users_email ON users(email);
+\`\`\`
+
+### ERD Representation
+\`\`\`mermaid
+erDiagram
+    USER ||--o{ ORDER : places
+    USER {
+        string email
+        string password_hash
+    }
+    ORDER {
+        int id
+        string status
+    }
+\`\`\`
+
+## How to use
+"Act as DBA. Design a schema for a user reward system."

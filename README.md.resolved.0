@@ -1,0 +1,31 @@
+# Advanced AI Marketing Skills
+
+Use these structured "Skills" to upgrade your AI agent (Claude Code, OpenClaw, Gemini) into a professional marketing team.
+
+## 📦 Included Skills
+
+### 1. 🎨 [Context Ad Generator](./context-ad-generator/SKILL.md)
+**For**: Midjourney, Flux, DALL-E 3 users.
+Creates high-end, art-directed image prompts by injecting photographer context (Camera, Lighting, Vibe) instead of generic descriptors.
+
+### 2. 🎬 [Viral Reels Scripter](./viral-reels-scripter/SKILL.md)
+**For**: Social Media Managers, Content Creators.
+Generates 15-60s video scripts optimized for retention. Splits output into Visuals, Audio, and Text Overlays with a focus on "The Hook".
+
+### 3. 📊 [One-Click Report Automator](./marketing-report-automator/SKILL.md)
+**For**: Marketing Analysts, Agencies.
+Instantly converts messy notes, JSON data, or Slack messages into a pristine Markdown Executive Report.
+
+## 🚀 How to Use
+
+### Manual Usage
+1.  Navigate to the skill folder (e.g., `context-ad-generator`).
+2.  Copy the **Prompt Template** from [SKILL.md](file:///Users/chunghyo/.gemini/antigravity/brain/d5458a27-6f4a-4236-96bd-c2eb615bf4e9/advanced-marketing-skills/context-ad-generator/SKILL.md).
+3.  Paste it into your AI chat (ChatGPT, Claude, Gemini) as a "System Prompt" or "Custom Instruction".
+
+### Agent Usage (Claude Code / OpenClaw)
+Copy the skills to your agent's skill directory:
+\`\`\`bash
+cp -r advanced-marketing-skills/* ~/.claude/skills/
+\`\`\`
+Then simply ask: *"Create a luxury ad prompt for my new watch."*

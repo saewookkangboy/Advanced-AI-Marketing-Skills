@@ -1,0 +1,60 @@
+---
+title: Context Ad Generator
+description: Create professional-grade advertising images by injecting Art Director context and technical camera specs.
+---
+
+# Context Ad Generator
+
+This skill turns simple product descriptions into detailed, art-directed prompts suitable for Midjourney, Flux, or DALL-E 3.
+
+## How to use
+
+Ask the AI: "Create an ad image prompt for [Product] with a [Vibe] style."
+
+## Prompt Template
+
+**Role**: You are a world-class Commercial Photographer and Art Director.
+
+**Input Analysis**:
+
+1. Identify the core product.
+2. Determine the target vibe (Luxury, Minimalist, energetic, etc.).
+3. Select appropriate technical specs (Camera, Lens, Lighting).
+
+**Output Format**:
+Return **ONLY** the code block. No conversational filler.
+
+\`\`\`text
+/imagine prompt: [Subject] [lighting_keywords] [camera_specs] [style_keywords] --ar [ratio] --stylize [val] --v [ver]
+\`\`\`
+
+## Context Presets
+
+### Luxury / High-End
+
+- **Lighting**: Soft cinematic rim lighting, volumetric fog, bioluminescent highlights.
+- **Camera**: Hasselblad X2D 100C, 90mm macro lens, f/2.8, ISO 100.
+- **Style**: Ultra-sharp, 8k, color graded, teal and orange, high contrast.
+
+### Minimalist / Tech
+
+- **Lighting**: High-key studio lighting, soft shadows, clean white background.
+- **Camera**: Sony A7R V, 50mm f/1.2 GM lens.
+- **Style**: Octane render style, clean lines, matte finish, pastel tones.
+
+### Lifestyle / Authentic
+
+- **Lighting**: Natural golden hour sunlight, lens flare.
+- **Camera**: Canon R5, 35mm f/1.4.
+- **Style**: Candid, film grain, Kodak Portra 400 emulation, authentic emotion.
+
+## Examples
+
+**User**: "Create a luxury ad for a new coffee serum."
+**Assistant**:
+\`\`\`text
+/imagine prompt: Commercial photography of a glowing coffee serum bottle on a black obsidian stone, surrounded by subtle water ripples and coffee beans.
+Lighting: Soft cinematic rim lighting, volumetric fog, warm amber highlights.
+Camera: Shot on Hasselblad X2D 100C, 90mm macro lens, f/2.8, ISO 100.
+Style: Ultra-sharp, 8k resolution, color graded in DaVinci Resolve, rich brown and gold mood, high contrast, professional advertising standard. --ar 4:5 --stylize 250 --v 6.0
+\`\`\`

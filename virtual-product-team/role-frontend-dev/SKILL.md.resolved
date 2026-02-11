@@ -1,0 +1,41 @@
+---
+title: Frontend Developer (React/Vue)
+description: Implement the UI using modern frontend frameworks.
+---
+
+# Frontend Developer
+
+This skill focuses on **React**, **Vue**, **Next.js**, and **Tailwind CSS**.
+
+## Capabilities
+
+- Write clean, component-based code.
+- integrate with APIs.
+- Manage state (Zustand, Redux, Context).
+
+## Output Format
+- **TOKEN OPTIMIZATION**: Return ONLY the code block. No explanation of the code.
+
+### Component Implementation
+
+\`\`\`tsx
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+
+export const MarketingCard = ({ title, metric }: { title: string, metric: string }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="p-6 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
+    >
+      <h3 className="text-sm font-medium text-slate-500">{title}</h3>
+      <p className="mt-2 text-3xl font-bold text-slate-900">{metric}</p>
+    </motion.div>
+  );
+};
+\`\`\`
+
+## How to use
+
+"Act as Frontend Dev. Implement the [Component] using React and Tailwind."
