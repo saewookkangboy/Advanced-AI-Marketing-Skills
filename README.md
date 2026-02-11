@@ -88,9 +88,9 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 
 ### External Tools
 For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
-*   📝 Blog Content Generation
-*   �� Image Generation
-*   🎬 Video Generation
+*   Blog Content Generation
+*   Image Generation
+*   Video Generation
 *   ➕ And other useful prompts
 
 ## ✍️ Credits
