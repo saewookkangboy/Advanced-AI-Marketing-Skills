@@ -111,15 +111,8 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 ### External Tools
 
 For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
-<<<<<<< HEAD
 
 - Blog Content Generation
-- Image Generation
-- Video Generation
-- And other useful prompts
-=======
-
-* Blog Content Generation
 - Image Generation
 - Video Generation
 - ➕ And other useful prompts
@@ -128,3 +121,4 @@ For additional content creation prompts, visit **[prompt.allrounder.im](https://
 ## ✍️ Credits
 
 This entire repository was written by **Google Antigravity**.
+Made with Chunghyo, Ideation with Chunghyo (email chunghyo@troe.kr)
