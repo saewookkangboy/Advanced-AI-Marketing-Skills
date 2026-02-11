@@ -60,24 +60,24 @@ Then simply ask: *"Create a luxury ad prompt for my new watch."*
 
 Build full software solutions by simulating a complete product team.
 
-### 4. 👔 [Product Manager (Orchestrator)](./virtual-product-team/role-product-manager/SKILL.md)
+### 5. 👔 [Product Manager (Orchestrator)](./virtual-product-team/role-product-manager/SKILL.md)
 
 **The Boss**. Starts here. Break down vague ideas into strict tasks for other roles.
 *Usage*: "Act as PM. Plan a new referral system."
 
-### 5. 🎨 [UI/UX Designer](./virtual-product-team/role-ui-ux-designer/SKILL.md)
+### 6. 🎨 [UI/UX Designer](./virtual-product-team/role-ui-ux-designer/SKILL.md)
 
 **The Architect**. Creates wireframes and design systems (Tailwind).
 
-### 6. 💻 [Frontend Developer](./virtual-product-team/role-frontend-dev/SKILL.md)
+### 7. 💻 [Frontend Developer](./virtual-product-team/role-frontend-dev/SKILL.md)
 
 **The Builder**. Writes React/Vue components based on the design.
 
-### 7. ⚙️ [Backend Developer](./virtual-product-team/role-backend-dev/SKILL.md)
+### 8. ⚙️ [Backend Developer](./virtual-product-team/role-backend-dev/SKILL.md)
 
 **The Logic**. Builds APIs and business logic.
 
-### 8. 🛡️ [Security Engineer](./virtual-product-team/role-security-engineer/SKILL.md) & 🗄️ [Database Admin](./virtual-product-team/role-database-admin/SKILL.md)
+### 9. 🛡️ [Security Engineer](./virtual-product-team/role-security-engineer/SKILL.md) & 🗄️ [Database Admin](./virtual-product-team/role-database-admin/SKILL.md)
 
 **The Guardians**. Ensure safety and data integrity.
 
@@ -113,10 +113,10 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
 <<<<<<< HEAD
 
-- 📝 Blog Content Generation
-- �� Image Generation
-- 🎬 Video Generation
-- ➕ And other useful prompts
+- Blog Content Generation
+- Image Generation
+- Video Generation
+- And other useful prompts
 =======
 
 * Blog Content Generation
@@ -124,7 +124,6 @@ For additional content creation prompts, visit **[prompt.allrounder.im](https://
 - Video Generation
 - ➕ And other useful prompts
 
->>>>>>> 90c3090de4773492499247dc113ebf79816d65b8
 
 ## ✍️ Credits
 
