@@ -30,6 +30,16 @@ Instantly converts messy notes into professional reports.
 
 - Support for `TYPE=DAILY`, `TYPE=QBR` (Quarterly), and `TYPE=POST_MORTEM`.
 
+### 4. 🔌 [MCP Marketing Data Integration](./mcp-marketing-data/SKILL.md)
+
+**For**: Data-driven marketers using Claude.ai or Claude Code.
+Connect Google Analytics, Search Console, and AdSense directly to your AI agent via MCP (Model Context Protocol).
+**Features**:
+
+- Real-time data queries (no copy-paste needed)
+- Automated reporting from live sources
+- Metrifyr MCP Server setup guide
+
 ## 🚀 How to Use
 
 ### Manual Usage
@@ -96,15 +106,25 @@ To maximize cost-efficiency across all skills, append this instruction to your c
 
 ### Reference
 
-* **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)**: Please refer to this repository for basic marketing skill features!
+- **[BrianRWagner/ai-marketing-skills](https://github.com/BrianRWagner/ai-marketing-skills)**: Please refer to this repository for basic marketing skill features!
 
 ### External Tools
 
 For additional content creation prompts, visit **[prompt.allrounder.im](https://prompt.allrounder.im/)**:
+<<<<<<< HEAD
+
 - 📝 Blog Content Generation
 - �� Image Generation
 - 🎬 Video Generation
 - ➕ And other useful prompts
+=======
+
+* Blog Content Generation
+- Image Generation
+- Video Generation
+- ➕ And other useful prompts
+
+>>>>>>> 90c3090de4773492499247dc113ebf79816d65b8
 
 ## ✍️ Credits
 
